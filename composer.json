@@ -10,6 +10,11 @@
       "OSCRM\\": "src/"
     }
   },
+  "autoload-dev": {
+    "psr-4": {
+      "OSCRM\\Tests\\": "tests/"
+    }
+  },
   "require-dev": {
     "phpunit/phpunit": "^9.0"
   },
